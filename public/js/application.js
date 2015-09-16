@@ -29,6 +29,8 @@ $(document).ready(function() {
           url: streamName,
           autoLoad: true,
           autoPlay: true,
+          bufferTime: 2,
+          bufferTimeMax: 0,
           volume: 100
         });
       }
