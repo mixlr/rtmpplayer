@@ -29,7 +29,7 @@ $(document).ready(function() {
           url: streamName,
           autoLoad: true,
           autoPlay: true,
-          bufferTime: 2,
+          bufferTime: 0,
           bufferTimeMax: 0,
           volume: 100
         });
